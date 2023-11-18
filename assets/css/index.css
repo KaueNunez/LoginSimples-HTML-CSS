@@ -1,0 +1,53 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: lightsalmon;
+}
+
+#container{
+    width: 400px;
+    height: 300px;
+    background: rgba(255, 255, 255, 0.3);
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 120px;
+    text-align: center;
+}
+
+#container img{
+    width: 120px;
+    height: 120px;
+    margin-top: -60px;
+    margin-bottom: 30px;
+}
+
+input{
+    height: 40px;
+    width: 80%;
+    font-size: 18px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    border: none;
+    padding-left: 40px;
+}
+
+#nome{
+    background: url(../img/icone-usuario.png);
+    background-position: 10px;
+    background-repeat: no-repeat;
+}
+
+#senha{
+    background: url(../img/icone-cadeado.png);
+    background-position: 10px;
+    background-repeat: no-repeat;
+}
+#submit{
+    background-color: rgb(218, 152, 29);
+    text-align: center;
+    padding: 5px 20px;
+    color: white;
+    border: 2px solid black;
+    text-transform: uppercase;
+}
